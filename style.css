@@ -75,7 +75,7 @@ header .navigation li a {
 
 .content .textBox h2 {
     color: #333;
-    font-size: 6em;
+    font-size: 4em;
     line-height: 1.4em;
     font-weight: 500;
 }
@@ -87,7 +87,6 @@ header .navigation li a {
 }
 
 .content .textBox p {
-    font-size: 4em;
     color: #333;
 }
 
