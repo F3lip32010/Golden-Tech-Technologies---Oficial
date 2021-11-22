@@ -108,24 +108,60 @@ header .navigation li a {
     left: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: cen;
 }
 
 .sci li {
     list-style: none;
-
 }
 
 .sci li a {
     display: inline-block;
-    margin-right: 15px;
+    margin-left: 15px;
+    background: chartreuse;
     width: 50px;
     height: 50px;
-    background: var(--black2);
-    color: var(--white2);
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out
 }
+
+.sci li a:hover {
+    background: darkgreen;
+    transform: translateY(-10px);
+}
+
+.sci li a img {
+    filter: invert(1);
+    transform: scale(0.5);
+}
+
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover {
+    transform: translateY(-15px);
+}
+
+.thumb li img {
+    max-width: 60px;
+}
+
+
+
+

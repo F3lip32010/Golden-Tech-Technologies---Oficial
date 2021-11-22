@@ -4,14 +4,14 @@
     box-sizing:border-box;
 }
 
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(45deg,chartreuse, chartreuse);
 
-}
+} */
 
 .menu {
     position: relative;
@@ -66,3 +66,4 @@ body {
 .menu.active .toggle {
     transform: rotate(315deg);
 }
+
