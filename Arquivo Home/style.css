@@ -23,7 +23,7 @@ section .circle {
     left: 0;
     width: 100%;
     height: 100%;
-    background: chartreuse;
+    background: rgb(91, 206, 168);
     clip-path: circle(70% at right -20%);
 }
 
@@ -81,25 +81,27 @@ header .navigation li a {
 }
 
 .content .textBox h2 span {
-    color: chartreuse;
+    color: rgb(91, 206, 168);
     font-size: 1.2em;
     font-weight: 900;
 }
 
 .content .textBox p {
     color: #333;
+    font-size: 1.5em;
 }
 
 .content .textBox a {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: chartreuse;
+    background: rgb(91, 206, 168);
     color: #fff;
     border-radius: 40px;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 .sci {
@@ -118,7 +120,7 @@ header .navigation li a {
 .sci li a {
     display: inline-block;
     margin-left: 15px;
-    background: chartreuse;
+    background: aqu;
     width: 50px;
     height: 50px;
     display: flex;
@@ -162,6 +164,49 @@ header .navigation li a {
     max-width: 60px;
 }
 
+@media (max-width: 991px) 
+{
+    header {
+        padding: 40px;
+    }
+
+    section {
+        padding: 150px 40px;
+    }
+
+    .sci {
+        left: 40px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content .textBox,
+    .content .imgBox {
+        max-width: 100%;
+    }
+
+    .swiper-slide {
+        height: 300px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+    .menu {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background: url();
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        z-index: 10000;
+    }
+}
 
 
 
