@@ -23,7 +23,7 @@ section .circle {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(91, 206, 168);
+    background: darkorchid;
     clip-path: circle(70% at right -20%);
 }
 
@@ -81,7 +81,7 @@ header .navigation li a {
 }
 
 .content .textBox h2 span {
-    color: rgb(91, 206, 168);
+    color: darkorchid;
     font-size: 1.2em;
     font-weight: 900;
 }
@@ -95,7 +95,7 @@ header .navigation li a {
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: rgb(91, 206, 168);
+    background: darkorchid;
     color: #fff;
     border-radius: 40px;
     font-weight: 500;
@@ -110,7 +110,7 @@ header .navigation li a {
     left: 100px;
     display: flex;
     justify-content: center;
-    align-items: cen;
+    align-items: center;
 }
 
 .sci li {
@@ -120,7 +120,7 @@ header .navigation li a {
 .sci li a {
     display: inline-block;
     margin-left: 15px;
-    background: aqu;
+    background: darkorchid;
     width: 50px;
     height: 50px;
     display: flex;
@@ -131,7 +131,7 @@ header .navigation li a {
 }
 
 .sci li a:hover {
-    background: darkgreen;
+    background: deepskyblue;
     transform: translateY(-10px);
 }
 
